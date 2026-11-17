@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #1e293b;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #38bdf8;
+}
+
+.hero h2 {
+    margin: 15px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #0284c7;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+section h2 {
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills span {
+    background: #1e293b;
+    padding: 12px 25px;
+    border-radius: 8px;
+}
+
+.project-card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e293b;
+}
